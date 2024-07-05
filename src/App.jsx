@@ -10,16 +10,6 @@ function App() {
   return (
     <Router basename="/website_inside">
       <div>
-        <h1>Website Inside</h1>
-
-        <nav>
-          <Link to="/">Home</Link>
-          {" | "}
-          <Link to="/Register">Register</Link>
-          {" | "}
-          <Link to="/ThankYouPage">Thank You Page</Link>
-        </nav>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Register" element={<Registration />} />
