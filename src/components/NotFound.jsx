@@ -8,7 +8,7 @@ const NotFoundPage = () => {
         <h1 className="text-6xl font-bold mb-4">404</h1>
         <p className="text-2xl mb-8">Désolé, la page que vous recherchez n'existe pas.</p>
         <Link
-          to="/website_inside/"
+          to="/"
           className="text-orange-500 hover:underline text-lg"
         >
           Retour à la page d'accueil

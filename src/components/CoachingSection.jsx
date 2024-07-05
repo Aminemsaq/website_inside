@@ -48,7 +48,7 @@ const CoachingCard = () => {
          
           {/* Button to register */}
           <div className="text-center">
-            <a href="/website_inside/register" className="inline-block bg-green-500 hover:bg-green-600 text-white py-2 w-full rounded-md text-sm font-semibold mt-4">
+            <a href="/register" className="inline-block bg-green-500 hover:bg-green-600 text-white py-2 w-full rounded-md text-sm font-semibold mt-4">
               Register Now
             </a>
           </div>

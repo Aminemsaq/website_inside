@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 const ButtonWrapper = () => {
   return (
-    <a href="/website_inside/register" className="block">
+    <a href="/register" className="block">
       <SpotlightButton />
     </a>
   );
