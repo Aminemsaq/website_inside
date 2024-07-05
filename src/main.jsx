@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
-import { HashRouter as Router } from 'react-router-dom';
-import App from './App.jsx'
-import './index.css'
+import ReactDOM from 'react-dom';
+import App from './App.jsx'; // Adjust the path as per your project structure
+import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router>
-    <App />
-</Router>,
-)
+  <React.StrictMode>
+      <App />
+  </React.StrictMode>
+);
