@@ -7,15 +7,12 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
-       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Register" element={<Registration />} />
           <Route path="/ThankYouPage" element={<ThankYouPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-    </Router>
   );
 }
 
