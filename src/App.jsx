@@ -8,7 +8,7 @@ import ThankYouPage from "./components/ThankYouPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website_inside">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Register" element={<Registration />}/>
